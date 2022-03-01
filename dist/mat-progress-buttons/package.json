@@ -1,0 +1,74 @@
+{
+  "name": "mat-progress-buttons",
+  "description": "Material Design Progress Buttons",
+  "version": "9.3.1",
+  "homepage": "https://github.com/michaeldoye/mat-progress-buttons",
+  "author": {
+    "name": "Michael Doye",
+    "url": "https://github.com/michaeldoye"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaeldoye/mat-progress-buttons.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "material design"
+  ],
+  "bugs": {
+    "url": "https://github.com/michaeldoye/mat-progress-buttons/issues"
+  },
+  "private": false,
+  "peerDependencies": {
+    "@angular/common": "^13.2.4",
+    "@angular/core": "^13.2.4",
+    "@angular/cdk": "^13.2.4",
+    "@angular/material": "^13.2.4"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "commitplease": {
+    "style": "angular",
+    "types": [
+      "feat",
+      "fix",
+      "docs",
+      "style",
+      "refactor",
+      "perf",
+      "test",
+      "chore",
+      "revert",
+      "demo"
+    ],
+    "scope": "\\S+.*"
+  },
+  "module": "fesm2015/mat-progress-buttons.mjs",
+  "es2020": "fesm2020/mat-progress-buttons.mjs",
+  "esm2020": "esm2020/mat-progress-buttons.mjs",
+  "fesm2020": "fesm2020/mat-progress-buttons.mjs",
+  "fesm2015": "fesm2015/mat-progress-buttons.mjs",
+  "typings": "mat-progress-buttons.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./mat-progress-buttons.d.ts",
+      "esm2020": "./esm2020/mat-progress-buttons.mjs",
+      "es2020": "./fesm2020/mat-progress-buttons.mjs",
+      "es2015": "./fesm2015/mat-progress-buttons.mjs",
+      "node": "./fesm2015/mat-progress-buttons.mjs",
+      "default": "./fesm2020/mat-progress-buttons.mjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}
