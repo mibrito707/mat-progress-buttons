@@ -10,6 +10,19 @@
     "test:ci": "ng test --browsers=ChromeHeadless --watch=false --code-coverage",
     "lint": "ng lint"
   },
+  "exports": {
+    "./package.json": {
+      "default": "./dist/package.json"
+    },
+    ".": {
+      "types": "./dist/mat-progress-buttons.d.ts",
+      "esm2020": "./dist/esm2020/mat-progress-buttons.mjs",
+      "es2020": "./dist/fesm2020/mat-progress-buttons.mjs",
+      "es2015": "./dist/fesm2015/mat-progress-buttons.mjs",
+      "node": "./dist/fesm2015/mat-progress-buttons.mjs",
+      "default": "./dist/fesm2020/mat-progress-buttons.mjs"
+    }
+  },
   "dependencies": {
     "@angular/animations": "^13.2.4",
     "@angular/common": "^13.2.4",
