@@ -47,5 +47,25 @@
       "demo"
     ],
     "scope": "\\S+.*"
-  }
+  },
+  "module": "fesm2015/mat-progress-buttons.mjs",
+  "es2020": "fesm2020/mat-progress-buttons.mjs",
+  "esm2020": "esm2020/mat-progress-buttons.mjs",
+  "fesm2020": "fesm2020/mat-progress-buttons.mjs",
+  "fesm2015": "fesm2015/mat-progress-buttons.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/mat-progress-buttons.mjs",
+      "es2020": "./fesm2020/mat-progress-buttons.mjs",
+      "es2015": "./fesm2015/mat-progress-buttons.mjs",
+      "node": "./fesm2015/mat-progress-buttons.mjs",
+      "default": "./fesm2020/mat-progress-buttons.mjs"
+    }
+  },
+  "sideEffects": false
 }
