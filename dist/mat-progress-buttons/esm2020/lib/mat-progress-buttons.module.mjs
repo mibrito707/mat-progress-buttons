@@ -20,20 +20,20 @@ export class MatProgressButtonsModule {
         };
     }
 }
-MatProgressButtonsModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.2.1", ngImport: i0, type: MatProgressButtonsModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
-MatProgressButtonsModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "14.2.1", ngImport: i0, type: MatProgressButtonsModule, declarations: [MatSpinnerButtonComponent, MatBarButtonComponent], imports: [CommonModule,
+MatProgressButtonsModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.2.2", ngImport: i0, type: MatProgressButtonsModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+MatProgressButtonsModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "14.2.2", ngImport: i0, type: MatProgressButtonsModule, declarations: [MatSpinnerButtonComponent, MatBarButtonComponent], imports: [CommonModule,
         MatButtonModule,
         MatProgressBarModule,
         MatProgressSpinnerModule,
         MatRippleModule,
         MatIconModule], exports: [MatSpinnerButtonComponent, MatBarButtonComponent] });
-MatProgressButtonsModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "14.2.1", ngImport: i0, type: MatProgressButtonsModule, imports: [CommonModule,
+MatProgressButtonsModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "14.2.2", ngImport: i0, type: MatProgressButtonsModule, imports: [CommonModule,
         MatButtonModule,
         MatProgressBarModule,
         MatProgressSpinnerModule,
         MatRippleModule,
         MatIconModule] });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.1", ngImport: i0, type: MatProgressButtonsModule, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.2.2", ngImport: i0, type: MatProgressButtonsModule, decorators: [{
             type: NgModule,
             args: [{
                     imports: [
