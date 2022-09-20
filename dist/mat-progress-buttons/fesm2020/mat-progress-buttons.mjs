@@ -20,9 +20,13 @@ class MatSpinnerButtonComponent {
         this.btnClick = new EventEmitter();
     }
     handleClick(event) {
+        console.log('options', this.options);
         if (!this.options.disabled && !this.options.active) {
             this.btnClick.emit(event);
         }
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        return false;
     }
     get configExists() {
         return !!this.buttonId && !!this.config;

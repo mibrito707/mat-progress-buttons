@@ -29,10 +29,14 @@ export class MatSpinnerButtonComponent implements OnChanges {
   @Output() btnClick: EventEmitter<MouseEvent> = new EventEmitter<MouseEvent>();
 
   @HostListener('click', ['$event'])
-  public handleClick(event: MouseEvent): void {
+  public handleClick(event: MouseEvent): boolean {
+    console.log('options', this.options);
     if (!this.options.disabled && !this.options.active) {
       this.btnClick.emit(event);
     }
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    return false;
   }
 
   constructor(@Inject(GLOBAL_CONFIG) private config: GlobalConfig) {}

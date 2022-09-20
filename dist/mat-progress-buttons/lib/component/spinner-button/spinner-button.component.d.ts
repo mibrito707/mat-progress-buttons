@@ -9,7 +9,7 @@ export declare class MatSpinnerButtonComponent implements OnChanges {
     active: boolean;
     disabled: boolean;
     btnClick: EventEmitter<MouseEvent>;
-    handleClick(event: MouseEvent): void;
+    handleClick(event: MouseEvent): boolean;
     constructor(config: GlobalConfig);
     get configExists(): boolean;
     get globalConfig(): MatProgressButtonOptions;
