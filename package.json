@@ -15,13 +15,13 @@
   "esm2020": "./dist/mat-progress-buttons/esm2020/mat-progress-buttons.mjs",
   "fesm2020": "./dist/mat-progress-buttons/fesm2020/mat-progress-buttons.mjs",
   "fesm2015": "./dist/mat-progress-buttons/fesm2015/mat-progress-buttons.mjs",
-  "typings": "./dist/mat-progress-buttons/mat-progress-buttons.d.ts",
+  "typings": "./dist/mat-progress-buttons/index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./dist/mat-progress-buttons/package.json"
     },
     ".": {
-      "types": "./dist/mat-progress-buttons/mat-progress-buttons.d.ts",
+      "types": "./dist/mat-progress-buttons/index.d.ts",
       "esm2020": "./dist/mat-progress-buttons/esm2020/mat-progress-buttons.mjs",
       "es2020": "./dist/mat-progress-buttons/fesm2020/mat-progress-buttons.mjs",
       "es2015": "./dist/mat-progress-buttons/fesm2015/mat-progress-buttons.mjs",
