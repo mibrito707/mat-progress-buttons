@@ -39,7 +39,9 @@ export class MatSpinnerButtonComponent implements OnChanges {
     return false;
   }
 
-  constructor(@Inject(GLOBAL_CONFIG) private config: GlobalConfig) {}
+  constructor(@Inject(GLOBAL_CONFIG) private config: GlobalConfig) {
+    console.log(config);
+  }
 
   get configExists(): boolean {
     return !!this.buttonId && !!this.config;

@@ -18,6 +18,7 @@ class MatSpinnerButtonComponent {
     constructor(config) {
         this.config = config;
         this.btnClick = new EventEmitter();
+        console.log(config);
     }
     handleClick(event) {
         console.log('options', this.options);
